@@ -8,8 +8,12 @@ export const metadata: Metadata = {
   title: "SDx @ UC San Diego",
   description: "The next-gen startup ecosystem for builders in San Diego.",
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
+    icon: [
+      {
+        url: '/favicon.svg',
+        type: 'image/svg+xml',
+      }
+    ],
   },
 };
 
